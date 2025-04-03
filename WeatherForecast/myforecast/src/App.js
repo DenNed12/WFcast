@@ -4,8 +4,8 @@ import { YMaps, Map, Placemark } from '@pbe/react-yandex-maps';
 import WeatherDisplay from './WeatherDisplay';
 import CitySelector from './CitySelector';
 
-const OPENWEATHER_API_KEY = 'YOUR_OPENWEATHER_API_KEY';
-const YANDEX_MAPS_API_KEY = 'YOUR_YANDEX_MAPS_API_KEY';
+const OPENWEATHER_API_KEY = '';
+const YANDEX_MAPS_API_KEY = '';
 
 function App() {
   const [weatherData, setWeatherData] = useState(null);
